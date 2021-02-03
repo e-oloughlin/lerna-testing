@@ -1,6 +1,11 @@
 class Second {
-  constructor() {
+  constructor(name) {
+    this.name = name;
     console.log('Hello from Second');
+  }
+
+  getName() {
+    return this.name;
   }
 }
 
